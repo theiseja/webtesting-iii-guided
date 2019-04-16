@@ -6,8 +6,8 @@ In this module we will cover the basics of using `jest` to test React applicatio
 
 ## Project Setup
 
-- [ ] fork and clone this repository.
-- [ ] **CD into the folder** where you cloned **your fork**.
-- [ ] type `yarn` or `npm i` to download dependencies.
+- [x] fork and clone this repository.
+- [x] **CD into the folder** where you cloned **your fork**.
+- [x] type `yarn` or `npm i` to download dependencies.
 
 Please follow along as the instructor uses _Test Driven Development (TDD)_ to build and test a React application.
