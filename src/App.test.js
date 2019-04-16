@@ -18,7 +18,20 @@ describe('<App />', () => {
     const mock = jest.fn();
 
     const result = mock();
+  
     expect(result).toBeUndefined();
     expect(mock).toHaveBeenCalled();
+    expect(mock).toHaveBeenCalledTimes(1);
+  })
+
+  it('is mocking me even more', () => {
+    const mock = jest.fn(() => 'hello'); // returns hello
+
+    const result = mock('smile');
+
+    expect(result).toBe('hello');
+    expect(mock).toHaveBeenCalled();
+    expect(mock).toHaveBeenCalledTimes(1);
+    expect(mock).toHaveBeenCalledWith('smile');
   })
 });
