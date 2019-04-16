@@ -17,7 +17,7 @@ exports[`<App /> matches snapshot 1`] = `
       <code>
         src/App.js
       </code>
-       and save to reload.
+       and save to reload. testing testy
     </p>
     <a
       className="App-link"
