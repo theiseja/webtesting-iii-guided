@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Speaker /> should match the snapshot 1`] = `
+Array [
+  <button>
+    Speak
+  </button>,
+  <div />,
+]
+`;
+
+exports[`<Speaker /> should match the snapshot with a message 1`] = `
+Array [
+  <button>
+    Speak
+  </button>,
+  <div>
+    test message
+  </div>,
+]
+`;
